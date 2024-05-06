@@ -1,0 +1,24 @@
+body {
+    background-image: url("img/clima.jpg");
+    /*background-repeat: repeat;*/
+    background-position: center;
+    background-size: contain;
+    font-family: 'Roboto', sans-serif; /* Aplica la fuente Roboto para todo el cuerpo */
+}
+
+.container {
+    max-width: 900px; /* Establece un ancho máximo para el contenedor principal */
+    margin: 0 auto; /* Centra el contenedor en la página */
+    padding: 20px; /* Agrega un espacio alrededor del contenido */
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo semitransparente */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Sombra */
+}
+
+.converter-container {
+    margin-top: 50px; /* Espacio entre el encabezado y el contenedor de conversión */
+}
+
+.input-container {
+    margin-bottom: 20px; /* Agrega un margen inferior de 20px al contenedor */
+}
